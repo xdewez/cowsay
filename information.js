@@ -1,6 +1,6 @@
 let information = {
     name : 'xavier',
-    campus : 'bxl'
+    campus : 'Bruxelles'
 };
 
 console.log(information);

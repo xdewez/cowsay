@@ -1,6 +1,6 @@
 const myInformation = require('./information');
 
-const {say} = require('./node_modules.gitignore/cowsay');
+const {say} = require('cowsay');
 const message = say({text : 'myInformation'});
 
 console.log(message);

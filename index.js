@@ -1,6 +1,9 @@
-const myInformation = require('./information');
+const myName = require("./information");
 
-const {say} = require('cowsay');
-const message = say({text : 'myInformation'});
+const cowsay = require("cowsay");
 
-console.log(message);
+    console.log(cowsay.say({
+    	text : "Hello I'm  " + `${myName.name}` + " from " + `${myName.campus}` + " campus",
+    	e : "oO",
+    	T : "U "
+    }));
